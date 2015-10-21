@@ -1,4 +1,5 @@
-table {
+table
+{
     width: 100%;
     border-spacing: 0;
     color: #212121;
@@ -6,21 +7,24 @@ table {
     overflow: hidden;
 }
 
-table>tbody>tr>td {
-    padding: 10px;
+table>tbody>tr>td
+{
+    /*padding: 10px;*/
     font-size: 14px;
     position: relative;
 }
 
 
-table>tbody>tr:hover {
-    padding: 20px;
+table>tbody>tr:hover
+{
+    /*padding: 20px;*/
     background-color: #016891 !important;
     color: white;
 }
 
 tr:nth-child(even)
-td:first-child::before {
+td:first-child::before
+{
     content: "";
     position: absolute;
     background-color: #C5EAF3;
@@ -30,7 +34,8 @@ td:first-child::before {
     height: 100%;
     z-index: -10;
 }
-td:hover::after {
+td:hover::after
+{
     content: "";
     position: absolute;
     background-color: #016891;
@@ -41,47 +46,81 @@ td:hover::after {
     z-index: -1;
 }
 
-td:hover {
+td:hover
+{
     background-color: #016891;
-    border: 2px solid white;
+    box-shadow: 0 0 12px white;
 }
 
-th {
+th
+{
     color: white;
     background-color: #019CCA;
 }
 
-img.logo {
+img.logo
+{
     width: 125px;
+    height: 26px;
 }
 
-.cancelled {
+.cancelled
+{
     color: red;
     font-weight: bold;
 }
 
-form {
+form
+{
     width: 300px;
 }
 
-input {
+input
+{
     font-size: 16px;
 }
 
-input:invalid {
+input:invalid
+{
     border-color: red;
 }
 
-button {
+button
+{
     visibility: hidden;
 }
 
-input:valid + br + br+ input:valid + br + br + button {
+input:valid + br + br+ input:valid + br + br + button
+{
     visibility: visible;
 }
 
 td, th {
     position: relative;
-    padding: 0 20px 0 20px;
+    /*padding: 0 20px 0 20px;*/
     text-align: center;
 }
+
+/*input[value=c]:checked ~ tr.c
+{
+    display: none;
+}
+*/
+
+/*input[value=d]:checked ~ tr.d
+{
+    display: none;
+}
+*/
+
+/*input[value=arrive]:checked ~ tr.arrive
+{
+    display: none;
+}
+*/
+
+/*input[value=depatrure]:checked ~ tr.departure
+{
+    display: none;
+}
+*/
