@@ -7,27 +7,25 @@ table
     overflow: hidden;
 }
 
-table>tbody>tr>td
+table > tbody > tr > td
 {
-    /*padding: 10px;*/
     font-size: 14px;
     position: relative;
 }
 
 
-table>tbody>tr:hover
+table > tbody > tr:hover
 {
-    /*padding: 20px;*/
     background-color: #016891 !important;
     color: white;
 }
 
-tr:nth-child(even)
+tr:nth-child(even),
 td:first-child::before
 {
     content: "";
     position: absolute;
-    background-color: #C5EAF3;
+    background-color: #c5Eaf3;
     top: 0;
     left: -5000px;
     width: 10000px;
@@ -55,7 +53,7 @@ td:hover
 th
 {
     color: white;
-    background-color: #019CCA;
+    background-color: #019cca;
 }
 
 img.logo
@@ -97,30 +95,6 @@ input:valid + br + br+ input:valid + br + br + button
 
 td, th {
     position: relative;
-    /*padding: 0 20px 0 20px;*/
     text-align: center;
 }
 
-/*input[value=c]:checked ~ tr.c
-{
-    display: none;
-}
-*/
-
-/*input[value=d]:checked ~ tr.d
-{
-    display: none;
-}
-*/
-
-/*input[value=arrive]:checked ~ tr.arrive
-{
-    display: none;
-}
-*/
-
-/*input[value=depatrure]:checked ~ tr.departure
-{
-    display: none;
-}
-*/
