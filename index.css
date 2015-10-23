@@ -20,12 +20,12 @@ table > tbody > tr:hover
     color: white;
 }
 
-tr:nth-child(even),
+tr:nth-child(even)
 td:first-child::before
 {
     content: "";
     position: absolute;
-    background-color: #c5Eaf3;
+    background-color: #c5eaf3;
     top: 0;
     left: -5000px;
     width: 10000px;
