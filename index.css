@@ -93,7 +93,8 @@ input:valid + br + br+ input:valid + br + br + button
     visibility: visible;
 }
 
-td, th {
+td, th 
+{
     position: relative;
     text-align: center;
 }
